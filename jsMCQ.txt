@@ -1,0 +1,368 @@
+//  =========== Q6. ====================
+// function outer () {
+//   var x= 10;
+//   function innerr(){
+//     console.log(x);
+//   }
+//   return innerr;
+// }
+// var ClosreFunction = outer();
+// ClosreFunction();  
+
+// answer = 10
+
+
+// ============================Q.7===================
+// var numbers=[1,2,3,4,5];
+
+// var newNumbers = numbers.slice(1,4);
+// console.log(newNumbers);
+
+// // Answer : [ 2, 3, 4 ]
+
+
+
+// ============================Q.8===================
+
+// var numbers = [1,2,3,4,5];
+
+// var sum=0;
+
+// numbers.forEach(function(num){
+//   sum+=num;
+  
+// })
+
+// console.log(sum);
+
+// //Answer : 15
+
+
+
+// ============================Q.9===================
+
+// var x =5;
+// function Out() {
+//   function inn(){
+//     console.log(x);
+    
+//   }
+//   var x = 10;
+//   return inn;
+// }
+// var cfunction = Out();
+// cfunction();
+
+
+// Answer : 10
+
+
+
+// ============================Q.10===================
+
+// function functionDelay(){
+//   for(var i=0; i<=5; i++){
+//     setTimeout(function() {
+//     console.log(i);
+//   }, 1000);
+//   }
+// }
+// functionDelay();
+
+/* 
+Answer : 
+6
+6
+6
+6
+6
+
+
+*/
+
+
+
+
+
+
+//      =================  11 ==================
+
+// function fn2(x){
+//   return(() => {
+//     console.log(x);
+//   })()
+// }
+// fn2(21);
+
+//Answer: 21
+
+
+
+
+
+
+
+// ========= Q14 ============
+
+// var x=12;
+// var y=8;
+// var res = eval("x+y");
+// console.log(res);
+
+
+// Answer : 20
+
+
+
+// ============= Q 15 ================
+
+// var a =1;
+// var b=0;
+
+// while(a<=3){
+//   a++;
+//   b+=a*2;
+//   console.log(b);
+// }
+
+
+/* Answer :
+4 
+10 
+18
+*/
+
+
+
+
+
+// =================Q 16 ====================
+
+// var a=Math.max();
+// var b = Math.min();
+// console.log(a);
+// console.log(b);
+
+
+/* Answer :
+-Infinity
+Infinity
+*/
+
+
+
+
+// ==================== Q 17 ====================
+
+// function fn(x) {
+//   return(() =>{
+//     console.log(x);
+//   })()
+// }
+// fn(21);
+
+
+// Answer : 21
+
+
+
+
+
+
+//  ================================ Q 18 =================================
+// var a=true+true+true*3;
+// console.log(a);
+
+// Answer : 5
+
+
+
+
+//  ================================ Q 19 =================================
+
+//console.log(NaN===NaN);
+
+// Answer : false
+
+
+
+
+//  ================================ Q 20 =================================
+
+//console.log(typeof(NaN));
+// Answer : number
+
+
+
+//  ================================ Q 20 =================================
+
+let sum=0;
+const a=[1,2,3];
+a.forEach(Sum);
+console.log(sum);
+function Sum(element)
+{
+  sum+=element;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
